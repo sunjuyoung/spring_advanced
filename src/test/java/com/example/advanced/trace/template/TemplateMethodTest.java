@@ -37,23 +37,24 @@ public class TemplateMethodTest {
     }
     @Test
     void templateMethod1(){
-
-        AbstractTemplate abstractTemplate = new SubClassLogic1();
-        AbstractTemplate abstractTemplate2 = new SubClassLogic2();
-
-        abstractTemplate.execute();
-        abstractTemplate2.execute();
+//
+//        AbstractTemplate abstractTemplate = new SubClassLogic1();
+//        AbstractTemplate abstractTemplate2 = new SubClassLogic2();
+//
+//
+//        abstractTemplate.execute();
+//        abstractTemplate2.execute();
     }
 
     @Test
     void templateMethod2(){
-        AbstractTemplate abstractTemplate = new AbstractTemplate() {
-            @Override
-            protected void call() {
-                log.info("비즈니스 로직1");
-            }
-        };
-        abstractTemplate.execute();
+//        AbstractTemplate abstractTemplate = new AbstractTemplate() {
+//            @Override
+//            protected void call() {
+//                log.info("비즈니스 로직1");
+//            }
+//        };
+//        abstractTemplate.execute();
 
     }
 
